@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+body {
+    background-image: url('web1.png');
+    background-repeat: no-repeat;
+    background-size: initial;
+
+  }
+
+header {
+    max-width: 100%;
+    /* position: relative; */
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+}
+.logo img{
+float: left;
+  width: 30%;
+  
+}
+    
+.jumbotron{  
+   height: 200px;
+    margin-top: 10px;
+    border: solid white;  
+    background:linear-gradient(to left, #71da0e 0%, #e7a711 100%);
+}
+/* page content css start here */
+#maintext{
+    font-size: 20px;
+    float:center;
+}
+.page-content{
+    text-align: center;
+}
+.page-content h3{
+    font-family: "Lucida Console", Courier, monospace;
+}
+hr {
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #1f1209;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+/* page content css ends here */
+/* members of ace start here */
+.members{
+    text-align: center;
+}
+
+.member_name{
+    display: flex;
+    float: left;
+    padding: 5px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+/* members of ace ends here */
+
+
+/* footer strat here */
+footer {
+   width: 100%;
+    background:black;
+    margin-top: 10px;
+}
+
+footer{
+    
+    display: flex;
+    padding: 20px;
+}
+footer a li{     
+    color: #fff;
+    list-style-type: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: none;
+    background-color: gray;
+  }
+ 
+/* footer ends here */
+
+ 
+
+/* media query */
+
+
+
+@media only screen and (min-width:360px) and (max-width:600px){
+    body{
+
+       /* 360*/
+        background-size:850px ;
+    }
+   
+}
+
+@media only screen and (min-width:600px) and (max-width:1000px){
+    body{
+
+       /* 360*/
+        background-size:1000px ;
+    }
+   
+
+
+
+@media only screen and (min-width:1200px){
+    body{
+
+       /* 360*/
+        background-size:initial ;
+    }
+   
+}
+
+
+@media only screen and (min-width:360px) and (max-width:600px){
+    body{
+
+       /* 360*/
+        background-size:850px ;
+    }
+   
+}
+
+@media only screen and (max-width:600px) {
+
+        .jumbotron {
+            margin-left:50px;
+            height:100px;
+           width: 200px;
+          
+        }
+
+}
+@media only screen and (max-width:600px) {
+
+        .jtext {
+            font-size: 10px;
+                  
+           width: 150px;
+          
+        }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+        .jumbotron .logo img {
+         width: 60px;
+          
+        }
+
+}
+
+/* @media only screen and (max-width:1200px) {
+
+        .jumbotron .logo img {
+         width: 600px;
+          
+        }
+
+} */
+
+
+@media only screen and (max-width:500px){
+    .page-content{
+        font-size: 1.5rem;
+        line-height:1 rem;
+       margin-left:10 rem;
+    }
+   
+}
+
+@media only screen and (min-width:120px) and (max-width:693px) {
+    #parasize{
+     
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+   
+        width: 50rem;
+    }
+ }
+
+
+@media only screen and (min-width:693px)  {
+#parasize{
+     
+ font-size: 1.5rem;
+ line-height:1.5 rem;
+ width: 80rem;
+}
+}
+
+
+@media only screen and (min-width:360px) and (max-width:600px){
+    .footer{
+            padding: 0;
+            margin:0;
+    }
+   
+}
